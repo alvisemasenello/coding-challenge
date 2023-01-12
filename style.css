@@ -1,0 +1,75 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 800px;
+    margin: 50px;
+    padding: 50px;
+    background-color: rgba(36, 36, 36, 0.5);
+    border-radius: 15px;
+    margin: auto;
+}
+
+.centrale{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.logo{
+    width: 200px;
+}
+
+.buttons{
+    font-size: 12px;
+    background-color: rgb(25, 229, 25);
+    padding: 10px;
+}
+
+h1{
+    color: rgb(25, 229, 25);
+    line-height: 15px;
+}
+
+h2{
+    font-weight: bold;
+}
+
+h3{
+    font-weight: 100;
+}
+
+.monopattini{
+    margin-top: 50px;
+    font-size: 12px;
+    color: white;
+    line-height: 8px;
+}
+
+.stato1, .stato2, .stato3{
+    box-align: left;
+    border-radius: 5px;
+}
+
+.stato1{
+    width: 350px;
+    height: 20px;
+    background-color: yellow;
+}
+
+.stato2{
+    width: 500px;
+    height: 20px;
+    background-color: green;
+}
+
+.stato3{
+    width: 150px;
+    height: 20px;
+    background-color: red;
+}
